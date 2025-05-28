@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <style>
       html {
@@ -17,6 +22,7 @@
 
       a{
         color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
       }
 
       .item {
@@ -24,6 +30,10 @@
         display: flex;
         align-items: center;
         background-color: rgba(229, 188, 255, 0.3);
+        border-radius: 1000px;
+        padding: 3px;
+        padding-right: 53px;
+        box-shadow: 4px 4px 10px 0px rgba(167, 94, 216, 0.8)
       }
 
       .main-container {
@@ -37,7 +47,7 @@
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
-        border: solid; color: blue;
+        border: thick double #f3c2f0;
       }
 
       .thumbnail {
@@ -55,6 +65,9 @@
       .name-row {
         margin-bottom: 30px;
         text-align: center;
+        font-family: "Comic sans ms";
+        font-size: 30px;
+        
       }
 
    
@@ -63,6 +76,13 @@
         margin-bottom: 30px;
         display: flex;
         justify-content: space-around;
+         font-family: "Delius";
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+         font-family: "Delius";
       }
       
     </style>
@@ -80,15 +100,15 @@
 
           <div class="social-icons-row">
             <a href="https://github.com/Baileysowl" target="_blank">
-              Github
+              <i class="fa-brands fa-github"></i>
             </a>
 
             <a href="https://www.instagram.com/friccb/" target="_blank">
-            Instagram
+            <i class="fa-brands fa-instagram"></i>
             </a>
 
             <a href="https://discord.com/users/613872021117468673" target="_blank">
-              Discord
+             <i class="fa-brands fa-discord"></i>
             </a>
             </div>
 
@@ -96,7 +116,7 @@
               <div class="item">
                 <img class="thumbnail" src="/thumbnails/hiking.jpg">
 
-                <a target="_blank" href="https://www.outsideonline.com/adventure-travel/destinations/north-america/most-beautiful-hikes-us/">
+                <a class="link-text" target="_blank" href="https://www.outsideonline.com/adventure-travel/destinations/north-america/most-beautiful-hikes-us/">
                   Best Hiking Trails In The US
                 </a>
             </div>
@@ -104,7 +124,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/fishing.jpg">
 
-              <a target="_blank" href="https://247wallst.com/special-report/2024/01/15/13-largest-fish-of-any-kind-ever-caught-in-the-us/">
+              <a class="link-text" target="_blank" href="https://247wallst.com/special-report/2024/01/15/13-largest-fish-of-any-kind-ever-caught-in-the-us/">
                 Large Fish Caught In The US
               </a>
             </div>
@@ -112,7 +132,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/wyoming.jpg">
 
-              <a target="_blank" href="https://www.planetware.com/pictures/wyoming-uswy.htm">
+              <a class="link-text" target="_blank" href="https://www.planetware.com/pictures/wyoming-uswy.htm">
                 Beautiful Photos Of Wyoming
               </a>
             </div>
@@ -120,7 +140,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/national parks.jpg">
 
-              <a target="_blank" href="https://www.nationalgeographic.com/travel/national-parks/article/most-visited-parks-photos">
+              <a class="link-text" target="_blank" href="https://www.nationalgeographic.com/travel/national-parks/article/most-visited-parks-photos">
                 Top 10 Most Popular National Parks
               </a>
             </div>
@@ -128,7 +148,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/rareflowers.jpg">
 
-              <a target="_blank" href="https://www.worldatlas.com/articles/what-is-the-rarest-flower-in-the-world.html">
+              <a class="link-text" target="_blank" href="https://www.worldatlas.com/articles/what-is-the-rarest-flower-in-the-world.html">
                 The 10 Rarest Flowers In The World
               </a>
             </div>
@@ -136,7 +156,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/recycle.jpg">
 
-              <a target="_blank" href="https://www.greenmatters.com/p/why-is-it-important-to-recycle">
+              <a class="link-text" target="_blank" href="https://www.greenmatters.com/p/why-is-it-important-to-recycle">
                 Why It's Important To Recycle
               </a>
             </div>
@@ -144,7 +164,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/beautifultree.jpg">
 
-              <a target="_blank" href="https://www.arboroperations.com.au/media-centre/the-most-beautiful-trees-in-the-world-breathtaking-images/amp">
+              <a class="link-text" target="_blank" href="https://www.arboroperations.com.au/media-centre/the-most-beautiful-trees-in-the-world-breathtaking-images/amp">
                 The Most Beautiful Trees In The World
               </a>
             </div>
@@ -152,7 +172,7 @@
             <div class="item">
               <img class="thumbnail" src="/thumbnails/coolestanimals.jpg">
 
-              <a target="_blank" href="https://worldanimalfoundation.org/animals/cool-animals/">
+              <a class="link-text" target="_blank" href="https://worldanimalfoundation.org/animals/cool-animals/">
                 Coolest Animals On The Planet
               </a>
             </div>
