@@ -1,12 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <style>
-      body  {
-        padding-top: 40px;
-
-        padding-bottom: 40px;
+      html {
+        min-height: 100%;
       }
+
+      body  {
+        min-height: 100%;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background: linear-gradient(90deg, #6f8aff, #888afe, #9e8afd, #b18afa, #c28bf7, #d18cf3, #df8def, #ec8fea);
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+      a{
+        color: rgba(255, 255, 255, 1.0);
+      }
+
+      .item {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        background-color: rgba(229, 188, 255, 0.3);
+      }
+
+      .main-container {
+        max-width: 640px;
+        margin: auto;
+      }
+
 
       .avatar-image {
         width: 128px;
@@ -21,6 +45,24 @@
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        text-align: center;
+      }
+
+   
+
+      .social-icons-row {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: space-around;
       }
       
     </style>
